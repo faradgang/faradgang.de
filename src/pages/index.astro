@@ -1,0 +1,71 @@
+---
+import "@fontsource-variable/dosis";
+import "@fontsource-variable/rubik";
+import logo from "../assets/faradgang_logo_big.svg?raw";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Faradgang e.V.</title>
+  </head>
+  <body>
+    <div
+      id="logo"
+      set:html={logo}
+      aria-label="A childishly drawn bicycle, representing the faradgang logo."
+    />
+    <div id="links">
+      <a class="berlin" href="https://faradgang.berlin/" target="_blank"
+        >Berlin</a
+      >
+      <a class="koeln" href="https://faradgangkoeln.org/" target="_blank"
+        >Köln</a
+      >
+    </div>
+  </body>
+</html>
+
+<style>
+  html {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  body {
+    background-color: black;
+    color: white;
+    font-family: "sans-serif";
+  }
+  #logo {
+    height: 100%;
+    width: 100%;
+    max-width: 30rem;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    font-weight: 900;
+  }
+  #links {
+    margin-top: 2rem;
+    font-size: xx-large;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .berlin {
+    font-family: "Rubik";
+  }
+  .koeln {
+    font-family: "Dosis";
+  }
+</style>

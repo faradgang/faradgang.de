@@ -10,10 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@fontsource-variable/dosis": "^5.0.15",
-    "@fontsource-variable/rubik": "^5.0.17",
-    "@fontsource/dosis": "^5.0.15",
-    "@fontsource/rubik": "^5.0.15",
-    "astro": "^3.3.2"
+    "@fontsource/dosis": "^5.0.17",
+    "@fontsource/rubik": "^5.0.17",
+    "astro": "^3.3.3"
   }
 }

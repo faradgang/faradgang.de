@@ -13,6 +13,6 @@
   "dependencies": {
     "@fontsource/dosis": "^5.0.17",
     "@fontsource/rubik": "^5.0.17",
-    "astro": "^3.4.4"
+    "astro": "^3.5.3"
   }
 }
